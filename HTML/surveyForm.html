@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+         <h1 id="title">Favorite Programming Language Survey</h1>
+         <p id="description"><!--description of the survey -->Tell us about your coding preferences!</p>
+  </header>
+   
+    <form action="" id="survey-form">
+        <fieldset>
+            <legend>Personal information</legend>
+          <label for="name" id="name-label">Name</label>
+          <input type="text" id="name" required placeholder="Enter your name">
+          <label for="email" id="email-label">Email</label>
+          <input type="email" id="email" required placeholder="Enter your email">
+          <label for="age" id="number-label" aria-placeholder="Enter your age">Age</label>
+          <input type="number" id="number" max="40" min="16" placeholder="16">   
+        </fieldset>
+        <fieldset id="experience-level">
+            <legend>Experience Level</legend>
+            <label for="experience">How long have you been coding</label>
+            <select id="dropdown">
+                <option value="less than one year">less than 1 year</option>
+                <option value="1 year">1 year</option>
+                <option value="1-3 years">1-3 years</option>
+                <option value="more">More</option>
+            </select>
+
+        </fieldset>
+        <fielset id="">
+            <legend>Favorite programming language</legend>
+            <label for="python">python</label>
+            <input type="radio" id="python" name="favorite-language" value="Python">
+            <label for="javaScript">JavaScript</label>
+            <input type="radio" id="javaScript" name="favorite-language" value="JavaScript">
+            <label for="c++">C++</label>
+            <input type="radio" id="c++" name="favorite-language" value="C++">
+            <label for="java">Java</label>
+            <input type="radio" id="java" name="favorite-language" value="Java">
+            <label for="other">Other</label>
+            <input type="radio" id="other" name="favorite-language" value="Other">
+
+        </fielset>
+
+        <fieldset>
+            <legend>Language Used</legend>
+            <label for="python">python</label>
+            <input type="checkbox" id="python" name="python" value="python">
+            <label for="javaScript">JavaScript</label>
+            <input type="checkbox" id="javaScript" name="javaScript" value="JavaScript">
+            <label for="c++">C++</label>
+            <input type="checkbox" id="c++" name="c++" value="C++">
+            <label for="java">Java</label>
+            <input type="checkbox" id="java" name="java" value="Java">
+            <label for="other">Other</label>
+            <input type="checkbox" id="other" name="other" value="Other">
+            
+        </fieldset>
+        <fieldset id="comment-section">
+            <legend>Comment Section</legend>
+            <textarea cols="30" rows="10" placeholder="enter your comments here"></textarea>
+        </fieldset>
+
+        <button id="submit" type="submit">Submit</button>
+
+
+
+    </form>
+
+</body>
+</html>
