@@ -1,14 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <title>My Personal Book Catalog</title>
+  <style>
+    table {
+      width: 80%;
+      border-collapse: collapse;
+      margin: 20px auto;
+    }
+    th, td {
+      padding: 12px;
+      border: 1px solid #ccc;
+      text-align: left;
+    }
+    th {
+      background-color: #f2f2f2;
+    }
+    caption {
+      font-size: 1.5em;
+      margin-bottom: 10px;
+    }
+  </style>
 </head>
 <body>
-    <form action="">
-        <label for="disabled">Disabled one <input type="text" disabled id="disabled" ></label>
-        <label for="non-disabled"> Non disabled <input type="text" id="non-disabled"> </label>
-    </form>
+  <table>
+    <caption>My Personal Book Catalog</caption>
+    <thead>
+      <tr>
+        <th>Title</th>
+        <th>Author</th>
+        <th>Genre</th>
+        <th>Year</th>
+        <th>ISBN</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>The Hobbit</td>
+        <td>J.R.R. Tolkien</td>
+        <td>Fantasy</td>
+        <td>1937</td>
+        <td>978-0547928227</td>
+      </tr>
+      <tr>
+        <td>1984</td>
+        <td>George Orwell</td>
+        <td>Dystopian</td>
+        <td>1949</td>
+        <td>978-0451524935</td>
+      </tr>
+      <tr>
+        <td>Clean Code</td>
+        <td>Robert C. Martin</td>
+        <td>Programming</td>
+        <td>2008</td>
+        <td>978-0132350884</td>
+      </tr>
+      <tr>
+        <td>Atomic Habits</td>
+        <td>James Clear</td>
+        <td>Self-help</td>
+        <td>2018</td>
+        <td>978-0735211292</td>
+      </tr>
+      <tr>
+        <td>To Kill a Mockingbird</td>
+        <td>Harper Lee</td>
+        <td>Classic</td>
+        <td>1960</td>
+        <td>978-0061120084</td>
+      </tr>
+    </tbody>
+  </table>
 </body>
 </html>
