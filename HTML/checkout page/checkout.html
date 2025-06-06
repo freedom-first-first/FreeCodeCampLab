@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout Page</title>
+</head>
+<body style="max-width: 700px;">
+    <h1>Checkout</h1>
+    <section>
+        <h2>Your Cart</h2>
+        <div style="display: flex; flex-direction: row;">
+            <figure>
+                <img src="brown.jpg" alt="Brown Egg">
+                <figcaption>
+                    <p>Brown egg</p>
+                    <p>3 egg cells</p>
+                    <p>$3.50/egg cell</p>
+                    <p>Total : $11.50</p>
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="white.jpg" alt="white Egg">
+                <figcaption>
+                    <p>white egg</p>
+                    <p>3 egg cells</p>
+                    <p>$3.99/egg cell</p>
+                    <p>Total : $11.96</p>
+                </figcaption>
+            </figure>
+        </div>
+    </section>
+    <section>
+        <h2>Payment Information</h2>
+        <form action="" method="post">
+            <fieldset>
+                <label for="card-name">Card-name<input type="text" id="card-name" name="card-name" aria-required="true" required></label>
+                <label for="card-number">Card-number<input type="text" id="card-number" name="card-number" aria-required="true" required></label>
+                <input type="submit" value="Place Order" id="order-button">
+            </fieldset>
+        </form>
+    </section>
+</body>
+</html>
